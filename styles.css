@@ -7,21 +7,27 @@ body {
 }
 
 h1 {
-    color: white;
     margin-bottom: 20px;
-    background-color: blueviolet;
 }
-
+#busqueda-container {
+    color:white;
+    margin-left: 350px;
+    margin-right: 350px;
+    background-color: blueviolet;
+    border-radius: 20px;
+}
 input {
     padding: 10px;
     width: 250px;
     font-size: 16px;
+    border-radius: 20px;
 }
 
 button {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
+    border-radius: 20px;
 }
 
 button:hover {
@@ -29,13 +35,14 @@ button:hover {
 }
 
 #info {
-    margin-top: 30px;
-    color: white;
+    color:white;
+    margin-left: 350px;
+    margin-right: 350px;
     background-color: blueviolet;
+    border-radius: 20px;
 }
 
 img {
     width: 250px;
-    border-radius: 10px;
     margin-top: 10px;
 }
