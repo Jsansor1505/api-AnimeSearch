@@ -2,6 +2,14 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     padding: 30px;
+    background-image: url("fondo.jpg");
+    background-size: cover;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 20px;
+    background-color: blueviolet;
 }
 
 input {
@@ -22,6 +30,8 @@ button:hover {
 
 #info {
     margin-top: 30px;
+    color: white;
+    background-color: blueviolet;
 }
 
 img {
