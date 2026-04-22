@@ -13,6 +13,7 @@ h1 {
     color:white;
     margin-left: 350px;
     margin-right: 350px;
+    padding-bottom: 20px;
     background-color: blueviolet;
     border-radius: 20px;
 }
@@ -35,11 +36,13 @@ button:hover {
 }
 
 #info {
+    display: none;
     color:white;
     margin-left: 350px;
     margin-right: 350px;
     background-color: blueviolet;
-    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 img {

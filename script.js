@@ -24,6 +24,7 @@ async function buscarAnime() {
     };
 
     try {
+      resultado.style.display = "block";
         const response = await fetch("https://graphql.anilist.co", {
             method: "POST",
             headers: {
